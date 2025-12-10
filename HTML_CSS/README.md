@@ -1,7 +1,14 @@
 コミット、プッシュ、PRの手順
 
-git add 「新しいファイル・ドキュメントの名前」
-git commit -m "Add 「新しいファイル・ドキュメントの名前」 folder"
-git push
+===========================＜作業後＞===========================
 
-gh pr create --title "Add 「新しいファイル・ドキュメントの名前」 「追加する場所」" --body "「追加内容」 を追加しました。レビューお願いします。"
+４、まとめてコミット git add . git commit -m "Update 変更内容"
+
+5,git-hubにプッシュ git push -u origin feature/multiple-changes
+
+6,PRを作る gh pr create --title "Update README and sort scripts" --body "READMEと手作業ソートシミュレーションのコードを更新しました。レビューお願いします。"
+
+
+===========================＜他コマンド＞===========================
+htmlファイルをブラウザで開く
+open index.html
