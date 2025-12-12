@@ -2,7 +2,9 @@
 
 ===========================＜作業後＞===========================
 
-４、まとめてコミット git add . git commit -m "Update 変更内容"
+４、まとめてコミット 
+git add .
+ git commit -m "Update 変更内容"
 
 5,git-hubにプッシュ git push -u origin feature/multiple-changes
 
@@ -12,3 +14,7 @@
 ===========================＜他コマンド＞===========================
 htmlファイルをブラウザで開く
 open index.html
+
+
+
+Sun → Mercury → Venus → Earth → Moon → Mars → Phobos → Deimos → Jupiter → Io → Europa → Ganymede → Callisto → Saturn → Titan → Rhea → Iapetus → Dione → Enceladus → Mimas → Uranus → Titania → Oberon → Ariel → Umbriel → Miranda → Neptune → Triton → Nereid
